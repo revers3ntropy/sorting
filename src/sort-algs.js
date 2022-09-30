@@ -153,7 +153,6 @@ const sorts = {
                         quickSort(items, index, right);
                     }
                 });
-
             }
         }
 

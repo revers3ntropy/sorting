@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Bar ({ value, width_, theme }) {
+function Bar ({ value, width, theme }) {
     const style = {
-        height: value + width_ - 5, // get the smallest to be circular
-        width: width_,
-        borderRadius: width_/2,
+        height: value + width - 5, // get the smallest to be circular
+        width,
+        borderRadius: width/2,
         background: theme
     };
 
